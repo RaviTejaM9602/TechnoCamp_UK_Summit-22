@@ -277,3 +277,84 @@ img {
   font-size: 16px;
   text-align: center;
 }
+
+/* partners Section */
+
+.service-partners {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.partner-title {
+  color: var(--dark);
+  text-align: center;
+  margin: 0;
+}
+
+.partner {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.partner-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  padding: 0 24px;
+  margin-bottom: 20px;
+}
+
+.partner img {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.partner-description {
+  padding: 0 10px;
+}
+
+.partner-description h4 {
+  color: #272a32;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 20px;
+}
+
+.partner-description h6 {
+  color: #ff4f38;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 15px;
+  margin-top: -12px;
+}
+
+.partner-description p {
+  color: #272a32;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 20px;
+}
+
+button {
+  background-color: #282424;
+  color: #fff;
+  font-weight: 600;
+  padding: 1.5rem;
+  border: none;
+  width: 40%;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: #2e1aa4af;
+}
+
