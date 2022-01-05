@@ -192,3 +192,88 @@ img {
   line-height: 28px;
   margin-top: 20px;
 }
+
+.available-services {
+  background-image: url(./Images/angle-puls.png), linear-gradient(0deg, var(--dark) 50%, var(--dark) 50%);
+  background-repeat: repeat;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-title {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: auto;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section-title-separators {
+  width: 53px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(239, 81, 60);
+}
+
+.main-service-grid {
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.service-list {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  padding: 20px 10px;
+  background-color: #d3d3d31e;
+  margin-bottom: 25px;
+  grid-gap: 1rem;
+}
+
+.service-list:hover {
+  outline: 2px solid var(--white-smoky);
+}
+
+.service-title,
+.service-description {
+  display: table;
+}
+
+.service-icon {
+  display: grid;
+  align-items: center;
+}
+
+.service-icon img {
+  width: 100%;
+}
+
+.service-title h3 {
+  color: var(--orange);
+  font-size: 1.4em;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 25px;
+}
+
+.service-description p {
+  color: var(--white-smoky);
+  font-size: 15px;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 25px;
+}
+
+.see-all {
+  width: 70%;
+  align-self: center;
+  background-color: var(--orange);
+  color: var(--white-smoky);
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
