@@ -35,6 +35,27 @@ const speakerList = [{
   Description: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open source move-ment.',
 }];
 
+const expandSupport = (start, end) => {
+  if (start === 0) {
+    document.querySelector('.partner').innerHTML = '';
+  }
+  for (let i = start; i < end; i += 1) {
+    document.querySelector('.partner').innerHTML += `
+        <li class="partner-item">
+          <div class="partner-image">
+            <img src="${speakerList[i].Img}" alt="">
+          </div>
+          <div class="partner-Description">
+            <h3>${speakerList[i].Name}</h3>
+            <h6>${speakerList[i].Role}</h6>
+            <hr class="section-title-separators">
+            <p>${speakerList[i].Description}</p>
+          </div>
+        </li>
+      `;
+  }
+};
+
 if (window.screen.width < 768) {
   expandSupport(0, 2);
 } else {
@@ -60,4 +81,3 @@ window.addEventListener('resize', () => {
     expandSupport(0, speakerList.length);
   }
 });
-
