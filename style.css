@@ -491,3 +491,128 @@ button:active {
   margin: 10px 0;
   list-style: none;
 }
+
+@media screen and (min-width: 768px) {
+  .page-header .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #272a31;
+  }
+
+  .social-icons i {
+    color: #fff;
+    padding: 10px;
+  }
+
+  .page-header .social-icons .lang {
+    color: #fff;
+    padding: 10px;
+    margin-right: 30px;
+    text-align: center;
+  }
+
+  .page-header .main-header {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .main-header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-header .desktop-logo {
+    align-self: flex-start;
+    background-color: #ec5242;
+    margin: 5px;
+  }
+
+  .main-header-content .close {
+    color: #272a31;
+    margin: 15px 0;
+    padding: 0 10px;
+    list-style: none;
+    line-height: 40px;
+    font-weight: 400;
+  }
+
+  .main-section-container {
+    margin-top: 70px;
+  }
+
+  .main-service-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+
+  .service-list {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 2px;
+  }
+
+  .service-icon {
+    display: block;
+    text-align: center;
+  }
+
+  .service-icon img {
+    width: 30%;
+    margin: auto;
+  }
+
+  .service-title h3 {
+    text-align: center;
+  }
+
+  .service-description p {
+    text-align: center;
+  }
+
+  .see-all {
+    background-color: transparent;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .partner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    padding: 0 24px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .camp-work .meeting {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .camp-work .meetup-2 .meeting-outline li,
+  .camp-work .meetup-1 .meeting-outline li {
+    padding: 20px;
+  }
+}
+
