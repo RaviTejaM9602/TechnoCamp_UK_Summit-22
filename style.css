@@ -24,6 +24,7 @@ a {
   z-index: 2;
   top: 0;
   background-color: transparent;
+  width: 100%;
 }
 
 .mobile-menu {
