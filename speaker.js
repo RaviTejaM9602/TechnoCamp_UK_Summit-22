@@ -60,3 +60,4 @@ window.addEventListener('resize', () => {
     expandSupport(0, speakerList.length);
   }
 });
+
