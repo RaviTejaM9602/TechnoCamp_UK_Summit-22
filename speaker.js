@@ -34,3 +34,29 @@ const speakerList = [{
   Role: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
   Description: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open source move-ment.',
 }];
+
+if (window.screen.width < 768) {
+  expandSupport(0, 2);
+} else {
+  expandSupport(0, speakerList.length);
+}
+
+document.querySelector('.more').addEventListener('click', (e) => {
+  if (!e.target.classList.contains('show-more')) {
+    e.target.classList.add('show-more');
+    expandSupport(2, speakerList.length);
+    e.target.innerHTML = 'Less <i class="fa fa-angle-up"></i>';
+  } else {
+    e.target.innerHTML = 'More <i class="fa fa-angle-down"></i>';
+    e.target.classList.remove('show-more');
+    expandSupport(0, 2);
+  }
+});
+
+window.addEventListener('resize', () => {
+  if (window.screen.width < 768) {
+    expandSupport(0, 2);
+  } else {
+    expandSupport(0, speakerList.length);
+  }
+});
