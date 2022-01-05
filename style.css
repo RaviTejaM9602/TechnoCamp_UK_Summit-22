@@ -358,3 +358,67 @@ button:active {
   background-color: #2e1aa4af;
 }
 
+.official-partners {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  background-color: var(--dark);
+}
+
+.official-partners-list-items {
+  display: -webkit-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.official-partners-items {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.official-partners-items img {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.camp-logo img {
+  background-color: #ec5242;
+  width: 60%;
+  height: 92%;
+  margin: 5% 20%;
+}
+
+.confer-logo img {
+  width: 100%;
+  background-color: #ec5242;
+  height: 100%;
+}
+
+.official-partners-items img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.section-titles {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.footer-section {
+  padding: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3d3d3;
+  gap: 50px;
+}
+
+.confer-logo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: rgb(239, 81, 60);
+}
