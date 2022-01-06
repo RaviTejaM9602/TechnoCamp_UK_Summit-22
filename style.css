@@ -406,12 +406,12 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:  rgb(46, 46, 46);
+  background-color: rgb(46, 46, 46);
   gap: 50px;
 }
 
 .confer-address {
-  color : #fff;
+  color: #fff;
 }
 
 .confer-logo {
@@ -459,7 +459,7 @@ button:active {
   justify-content: center;
   align-content: center;
   margin: 10px;
-} 
+}
 
 .camp-logo {
   border: 2px solid #272a31;
@@ -627,9 +627,9 @@ button:active {
   .camp-work .meeting {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3px;
-  } 
-
+    gap: 2px;
+  }
+  
   .camp-work .meetup-1 .meeting-outline ul,
   .camp-work .meetup-2 .meeting-outline ul {
     margin: 0 20px;
@@ -645,11 +645,11 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  rgb(46, 46, 46);
+    background-color: rgb(46, 46, 46);
     gap: 50px;
   }
   
   .confer-address {
-    color : #fff;
+    color: #fff;
   }
 }
