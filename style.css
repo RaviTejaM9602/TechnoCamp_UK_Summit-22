@@ -27,10 +27,6 @@ a {
   width: 100%;
 }
 
-.mobile-menu {
-  display: flex;
-}
-
 .social-icons {
   display: none;
 }
@@ -57,7 +53,7 @@ a {
   color: var(--white-smoky);
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
-  align-self: end;
+  left: 85%;
   padding-right: 30px;
   padding-top: 8px;
 }
@@ -78,6 +74,10 @@ ul {
   flex-direction: column;
   width: 100%;
   left: -100%;
+}
+
+.mobile-nav .close {
+  align-self: flex-end;
 }
 
 .mobile-nav ul li {
@@ -112,13 +112,6 @@ ul {
   left: 0;
 }
 
-.mobile-logo {
-  background-color: rgba(214, 54, 26, 0.768);
-  align-self: flex-end;
-  border-radius: 5px;
-  margin-left: 40px;
-}
-
 img {
   object-fit: contain;
 }
@@ -149,7 +142,7 @@ img {
 }
 
 .main-section {
-  width: 65%;
+  width: 80%;
   margin: auto;
   position: relative;
 }
@@ -346,16 +339,17 @@ button {
   font-weight: 600;
   padding: 1.5rem;
   border: none;
-  width: 40%;
-  align-content: center;
-  justify-content: center;
-  margin: auto;
   cursor: pointer;
 }
 
 button:hover,
 button:active {
   background-color: #2e1aa4af;
+}
+
+.more {
+  width: 40%;
+  align-self: center;
 }
 
 .official-partners {
@@ -386,9 +380,9 @@ button:active {
 
 .camp-logo img {
   background-color: #ec5242;
-  width: 60%;
+  width: 50%;
   height: 92%;
-  margin: 5% 20%;
+  margin: 5% 25%;
 }
 
 .confer-logo img {
@@ -412,15 +406,20 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d3d3d3;
+  background-color:  rgb(46, 46, 46);
   gap: 50px;
+}
+
+.confer-address {
+  color : #fff;
 }
 
 .confer-logo {
   display: flex;
   flex-direction: column;
   align-self: center;
-  background-color: rgb(239, 81, 60);
+  background-color: rgba(211, 79, 19, 0.782);
+  height: 100%;
 }
 
 /* About Page */
@@ -429,6 +428,7 @@ button:active {
   padding-top: 10px;
   padding-bottom: 20px;
   background-color: var(--white);
+  margin: 10px;
 }
 
 .camp-title {
@@ -453,6 +453,14 @@ button:active {
   padding: 0 30px;
 }
 
+.camp-work .meeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+} 
+
 .camp-logo {
   border: 2px solid #272a31;
   margin: 20px 25px;
@@ -460,7 +468,8 @@ button:active {
 
 .camp-work .meetup-1 {
   background-image: linear-gradient(to right, rgba(238, 61, 17, 0.6), rgba(238, 61, 17, 0.6)), url('./Images/about/conference.jpg');
-  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: grid;
   align-content: center;
   text-align: center;
@@ -469,27 +478,37 @@ button:active {
 
 .camp-work .meetup-2 {
   background-image: linear-gradient(to right, rgba(238, 61, 17, 0.6), rgba(238, 61, 17, 0.6)), url('./Images/about/conference-2.jpg');
-  height: 100%;
   display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
   align-content: center;
   text-align: center;
   margin: 30px 16px;
 }
 
+.camp-work .meetup-1 .meeting-outline {
+  margin: 5px;
+}
+
+.camp-work .meetup-1 .meeting-outline ul,
+.camp-work .meetup-2 .meeting-outline ul {
+  margin: 0 20px;
+}
+
 .camp-work .meetup-1 .meeting-outline li {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   color: #f5f5f5;
-  margin: 10px 0;
   list-style: none;
+  padding: 3px;
 }
 
 .camp-work .meetup-2 .meeting-outline li {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   color: #f5f5f5;
-  margin: 10px 0;
   list-style: none;
+  padding: 3px;
 }
 
 @media screen and (min-width: 768px) {
@@ -606,12 +625,31 @@ button:active {
   }
 
   .camp-work .meeting {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+  } 
+
+  .camp-work .meetup-1 .meeting-outline ul,
+  .camp-work .meetup-2 .meeting-outline ul {
+    margin: 0 20px;
   }
 
   .camp-work .meetup-2 .meeting-outline li,
   .camp-work .meetup-1 .meeting-outline li {
-    padding: 20px;
+    padding: 5px;
+  }
+
+  .footer-section {
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(46, 46, 46);
+    gap: 50px;
+  }
+  
+  .confer-address {
+    color : #fff;
   }
 }
