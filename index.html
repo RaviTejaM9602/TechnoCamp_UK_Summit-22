@@ -23,25 +23,10 @@
 </head>
 <body>
   <header class="page-header">
-    <div class="mobile-menu">
-      <button type="button" id="hamburger" aria-label="open menu" class="open-menu open">
-        <i class="fa fa-bars"></i>
-      </button>
-      <nav class="mobile-nav">
-        <button type="button" aria-label="close menu closebtn" class="close-menu close">
-          <i class="fas fa-times"></i>
-        </button>
-        <ul>
-          <li><a class="close active" href="./index.html">Home</a></li>
-          <li><a class="close" href="./about.html">About</a></li>
-          <li><a class="close" href="#">Service</a></li>
-          <li><a class="close" href="#">Blogs</a></li>
-          <li><a class="close" href="#">Support</a></li>
-          <li><a class="close" href="#">News</a></li>
-          <li class="bordered-link"><a class="close" href="#">CONTACT US</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="top">        
+      <i class="fas fa-bars"></i>
+    </nav>
+    
     <div class="social-icons">
       <i class="fab fa-facebook-f"></i>
       <i class="fab fa-twitter"></i>
@@ -62,6 +47,22 @@
       </ul>
     </div>
   </header>
+
+  <div id="myNav_mobile" class="overlay-bg">
+
+    <!-- Button to close the overlay navigation -->
+    <a class="closebtn">
+      <img src="./images/mobile_menu/Icon.png" alt="Close_icon">
+    </a>
+  
+    <!-- Overlay content -->
+    <ul class="overlay-content">
+      <li class="overlay-mobile"><a href="#home">Portfolio</a></li>
+      <li class="overlay-mobile"><a href="#about">About</a></li>
+      <li class="overlay-mobile"><a href="#contact">Contact</a></li>
+    </ul>
+  
+  </div>
 
   <!-- main section -->
   <main class="main-section-container">
