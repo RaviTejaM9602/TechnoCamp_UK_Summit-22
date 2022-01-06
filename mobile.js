@@ -1,17 +1,27 @@
-const openNav = document.querySelector('.top');
-const closebtn = document.querySelector('.closebtn');
-const myNavMenu = document.getElementById('myNav_mobile');
-const overlayContent = document.querySelector('.overlay-content');
+const navigation = document.querySelector('.mobile-nav');
+const expandMenu = () => {
+  navigation.classList.remove('close-scroll-bar');
+  navigation.classList.add('open-scroll-bar');
+};
 
-function openMobileMenu() {
-  myNavMenu.style.width = '100%';
-}
+const closeMenu = () => {
+  navigation.classList.remove('open-scroll-bar');
+  navigation.classList.add('close-scroll-bar');
+};
 
-openNav.addEventListener('click', openMobileMenu);
+document.querySelector('.open').addEventListener('click', expandMenu);
 
-function closeMobileMenu() {
-  myNavMenu.style.width = '0%';
-}
+const closeClass = document.querySelectorAll('.close');
+closeClass.forEach(((element) => element.addEventListener('click', closeMenu)));
 
-closebtn.addEventListener('click', closeMobileMenu);
-overlayContent.addEventListener('click', closeMobileMenu);
+const header = document.querySelector('.page-header');
+
+document.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    if (!header.classList.contains('white-bg')) {
+      header.classList.add('white-bg');
+    }
+  } else {
+    header.classList.remove('white-bg');
+  }
+});
