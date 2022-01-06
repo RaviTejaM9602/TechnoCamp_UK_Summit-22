@@ -511,6 +511,8 @@ button:active {
   padding: 3px;
 }
 
+/* Desktop CSS */
+
 @media screen and (min-width: 768px) {
   .page-header .social-icons {
     display: flex;
