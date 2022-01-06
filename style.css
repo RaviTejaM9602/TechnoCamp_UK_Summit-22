@@ -631,7 +631,7 @@ button:active {
     grid-template-columns: 1fr 1fr;
     gap: 2px;
   }
-  
+
   .camp-work .meetup-1 .meeting-outline ul,
   .camp-work .meetup-2 .meeting-outline ul {
     margin: 0 20px;
@@ -650,7 +650,7 @@ button:active {
     background-color: rgb(46, 46, 46);
     gap: 50px;
   }
-  
+
   .confer-address {
     color: #fff;
   }
