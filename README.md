@@ -1,34 +1,77 @@
 # TechnoCamp_UK_Summit-22
-Coding Conference for Upcoming Techno Camps 2022
+Coding Conference for Upcoming Techno Camps 2022 Who aspire career in Web Development
 
 > A demo website for an Coding Conference.
 
 ## Built With
 
 HTML and CSS
-Using Grid and Flexbox , forms etc
+Using Grid and Flexbox etc
 Javascript : Arrays and Objects
-Local Storage
-Form Validation etc
 
-## Live Demo
+## Video
 
-[Live Demo Link]()
+In the following [link](https://www.loom.com/share/9a3d0e9a85824159bb2d36e7e54c2c63) I am explaining the capstone project.
+
+
+## Live Server
+
+In the following link, you can view [TECHNOCAMP_2022](https://ravitejam9602.github.io/TechnoCamp_UK_Summit-22/).
+
+## Screenshot
+
+![screenshot_TechnoCamp](https://github.com/RaviTejaM9602/TechnoCamp_UK_Summit-22/issues/2#issuecomment-1006511334)
 
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
+## Prerequisites
+
+### Browser
+
+Any modern browser works! :smile:
 
 
+### Knowledge
 
-To get a local copy up and running follow these simple example steps.
+Basic knowledge of the terminal and git
+
+
+### Getting Started
+
+To get a local copy follow these steps:
+
+1. Clone the repo by typing on your terminal
+
+```
+git clone https://github.com/RaviTejaM9602/TechnoCamp_UK_Summit-22
+```
+
+2. Access the repo with
+
+```
+cd Conference
+```
+
+3. Clone the Repo or Download the Zip file
+Run the live server or simply open index.html with your browser.
+
+```
+code .
+```
+
+
+## Authors
+
+👤 **Ravi Teja M**
 
 ### Prerequisites
-Grid, Flexbox, Images (Concepts in CSS)
-### Setup
-Linter Setup 
+Grid, Flexbox, Images (Concepts in CSS).
+HTML5 Semantic Tags
 
+### Setup
+Linter Setup
 
 ## Authors
 
@@ -43,6 +86,10 @@ Linter Setup
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgments
+
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## Show your support
 

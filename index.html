@@ -4,9 +4,209 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+  crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css">
   <title>TechnoCamp_UK_Summit_2022</title>
 </head>
 <body>
-  
+  <header class="page-header">
+    <div class="mobile-menu">
+      <button type="button" id="hamburger" aria-label="open menu" class="open-menu open">
+        <i class="fa fa-bars"></i>
+      </button>
+      <nav class="mobile-nav">
+        <button type="button" aria-label="close menu closebtn" class="close-menu close">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul>
+          <li><a class="close active" href="./index.html">Home</a></li>
+          <li><a class="close" href="./about.html">About</a></li>
+          <li><a class="close" href="#">Service</a></li>
+          <li><a class="close" href="#">Blogs</a></li>
+          <li><a class="close" href="#">Support</a></li>
+          <li><a class="close" href="#">News</a></li>
+          <li class="bordered-link"><a class="close" href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <a class="lang" href="about.html">My Page</a>
+    </div>
+    <div class="main-header">
+      <div class="desktop-logo">
+        <img src="./Images/tech-camp-logo.png" alt="Techno_Logo">
+      </div>      
+      <ul class="main-header-content">
+        <li><a class="close active" href="./index.html">Home</a></li>
+        <li><a class="close" href="./about.html">About</a></li>
+        <li><a class="close" href="#">Service</a></li>
+        <li><a class="close" href="#">Blogs</a></li>
+        <li><a class="close" href="#">Support</a></li>
+        <li><a class="close" href="#">News</a></li>
+        <li class="bordered-link"><a class="close" href="#">CONTACT US</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- main section -->
+  <main class="main-section-container">
+    <div class="transparent">
+      <div class="main-section">
+          <h2 class="title-intro">
+             <q>Welcome!! TechnoCamp United Kingdom 2022</q>
+          </h2>
+          <h1 class="title-info">Creative Minds Global Summit UK</h1>
+        <div class="description">
+          <p>People meet here has the great minds and aspirantion in leading the web development from front into a next Level.
+            Our goal is to assist the client in maintaing websites more secured way, 
+            less maintainence cost and workforce in delievering greater performance.</p>
+        </div>
+        <div class="office">
+          <h2>We are open from Monday ~ Saturday(12AM)</h2>
+          <p>You can reach us: <br> @Oxford square Building 3rd floor, Room Number: 304, Oxfordshire, United Kingdom</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="available-services">
+    <h2 class="services-title">Main Program</h2>
+    <hr class="section-title-separators">
+    <ul class="main-service-grid">
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./Images/Main-images/program_icon_01.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Top-Notch Design</h3>
+        </div>
+        <div class="service-description">
+          <p>Our tracking unit is designed with latest technology.</p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./Images/Main-images/program_icon_02.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Realtime Tracking</h3>
+        </div>
+        <div class="service-description">
+          <p>You can see where all of your vehicles are in real time 24/7.
+          </p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./Images/Main-images/program_icon_03.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Backup Battery</h3>
+        </div>
+        <div class="service-description">
+          <p>All our trackers come with inbuilt battery that can last for day.</p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./Images/Main-images/program_icon_04.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Easy Compatibility</h3>
+        </div>
+        <div class="service-description">
+          <p>You can use any kind of data enabled smartphone with our tracking service.</p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./Images/Main-images/program_icon_05.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Nationwide Installation</h3>
+        </div>
+        <div class="service-description">
+          <p>We have resident installer in every major city all over the country.</p>
+        </div>
+      </li>
+    </ul>
+    <a href="" class="see-all">SEE THE WHOLE SERVICE</a>
+  </section>
+
+  <!-- Partner section -->
+  <section class="service-partners">
+    <h2 class="partner-title">Support Teams</h2>
+    <hr class="section-title-separators">
+    <ul class="partner">      
+    </ul>
+    <button type="button" class="more">More<i class="fa fa-angle-down"></i>
+    </button>
+  </section>
+
+  <section class="official-partners">
+    <h2 class="section-titles">Partners</h2>
+    <hr class="section-title-separators">
+    <ul id="official-partners-list-items" class="official-partners-list-items">
+      <li class="official-partners-items">
+        <a target="blanc" href="https://www.airbnb.co.uk/?from_belo_click">
+          <img src="./Images/partners/airbnb.png" alt="Airbnb_Logo" />
+        </a>
+      </li>
+      <li class="official-partners-items">
+        <a target="blanc" href="https://www.stackcommerce.com/">
+          <img src="./Images/partners/stackcommerce.png" alt="Stack_commerce_logo" />
+        </a>
+      </li>
+      <li class="official-partners-items">
+        <a target="blanc" href="https://www.mahle.com/">
+          <img src="./Images/partners/macarthur.png" alt="Mahle_logo" />
+        </a>
+      </li>
+      <li class="official-partners-items">
+        <a target="blanc" href="https://hero.fandom.com/wiki/Korra">
+          <img src="./Images/partners/korra.png" alt="korra_logo" />
+        </a>
+      </li>
+      <li class="official-partners-items">
+        <a target="blanc" href="https://www.google.co.uk/">
+          <img src="./Images/partners/googlekorea.png" alt="Google_logo" />
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="footer-section">
+      <div class="confer-logo">
+        <a href="./index.html" class="logo-footer">
+          <img class="footer-logo" src="./Images/tech-camp-logo.png" alt="Techno_Logo">
+         </a>
+      </div>      
+      <div class="confer-address">
+        <p>Oxford square Building,
+           Conference Hall Number: 304, 
+           Headington,Oxford,Oxfordshire, United Kingdom - OXG 1FG</p>
+      </div>
+    </div>   
+  </footer>
+
+  <script src="mobile.js"></script>
+  <script src="speaker.js"></script>
+
 </body>
 </html>
