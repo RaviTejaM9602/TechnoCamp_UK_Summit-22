@@ -20,7 +20,7 @@ In the following link, you can view [TECHNOCAMP_2022](https://ravitejam9602.gith
 
 ## Screenshot
 
-![screenshot_TechnoCamp](https://github.com/RaviTejaM9602/TechnoCamp_UK_Summit-22/issues/2#issuecomment-1006511334)
+![screenshot_TechnoCamp](https://github.com/RaviTejaM9602/TechnoCamp_UK_Summit-22/issues/3)
 
 
 ## Getting Started
