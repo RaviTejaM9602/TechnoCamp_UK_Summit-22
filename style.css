@@ -406,7 +406,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(46, 46, 46);
+  background-color: rgba(51, 64, 62, 0.503);
   gap: 50px;
 }
 
@@ -647,11 +647,11 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(46, 46, 46);
+    background-color: #fff; 
     gap: 50px;
   }
 
   .confer-address {
-    color: #fff;
+    color: rgb(46, 46, 46);
   }
 }
