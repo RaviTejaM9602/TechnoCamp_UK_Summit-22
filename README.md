@@ -11,12 +11,16 @@ Javascript : Arrays and Objects
 
 ## Video
 
-In the following [link]() I am explaining the capstone project.
+In the following [link](https://www.loom.com/share/9a3d0e9a85824159bb2d36e7e54c2c63) I am explaining the capstone project.
 
 
 ## Live Server
 
 In the following link, you can view [TECHNOCAMP_2022](https://ravitejam9602.github.io/TechnoCamp_UK_Summit-22/).
+
+## Screenshot
+
+![screenshot_datstar](./Images/Project_Screenshot/TechnoCamp2022.png)
 
 
 ## Getting Started
