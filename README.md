@@ -9,10 +9,6 @@ HTML and CSS
 Using Grid and Flexbox etc
 Javascript : Arrays and Objects
 
-## Video
-
-In the following [link](https://www.loom.com/share/9a3d0e9a85824159bb2d36e7e54c2c63) I am explaining the capstone project.
-
 
 ## Live Server
 
